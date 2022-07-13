@@ -1,0 +1,33 @@
+{
+  "ListOfQuotes": [
+    {
+      "Channel": "ACCIPIENS",
+      "CustomerEntity": "112003164",
+      "DownPayment": "Rentals in Advance",
+      "EntityNumber": "2",
+      "Make": "VOLKSWAGEN",
+      "Model": "ID.3 ELECTRIC HATCHBACK (2020-)",
+      "Variant": "150KW BSNS PRO PFMNCE 62KWH",
+      "ProductVariant": "V4E30_L&C_Small",
+      "Year": "2021",
+      "Month": "01",
+      "SortCode": "123456",
+      "AccountSeniority": "10",
+      "TaxType": "(I) - Outside Sc",
+      "ServiceType": "VED/RFL 2nd Year+",
+      "RentalInAdvance": "3",
+      "PaymentType": "Direct Debit",
+      "PosMake": "VOLKSWAGEN",
+      "PosModel": "ID.3 ELECTRIC HATCHBACK (2020-)",
+      "PosProductType": "RCH",
+      "PosVersion": "150KW BSNS PRO PFMNCE 62KWH",
+      "PosVehicleClass": "Passenger Car",
+      "PosVehiclestate": "New",
+      "PosColour": "Black",
+      "PosPaymentType": "Direct Debit",
+      "PosProductVariant": "V4E30 Lease & Care (Small) Q2 2021",
+      "PosKind": "Proposal",
+      "Period": "24"
+    }
+  ]
+}

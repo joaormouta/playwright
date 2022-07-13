@@ -1,0 +1,277 @@
+﻿<html xmlns:tp="http://schemas.datacontract.org/2004/07/Microsoft.VisualStudio.TestPlatform.Extensions.HtmlLogger.ObjectModel" xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+  <body>
+    <h1>Test run details</h1>
+    <div class="summary">
+      <div class="block"><span>Total tests</span><div class="total-tests">6</div><br></div>
+      <div class="block"><span>Passed  : </span><span class="passedTests">4</span><br><span>Failed  : </span><span class="failedTests">2</span><br><span>Skipped : </span><span class="skippedTests">0</span><br></div>
+      <div class="block"><span>Pass percentage</span><div class="pass-percentage">66 %</div><br></div>
+      <div class="block"><span>Run duration</span><div class="test-run-time">52s 6ms</div><br></div><br></div>
+    <h2>Failed Results</h2>
+    <div class="list-row" onclick="ToggleClass('1847384050-failedResult')">C:\Users\DKX4D0S\repos\specflowPlaywrightPOC\bin\Debug\net6.0\specflowPlaywrightPOC.dll</div>
+    <div class="inner-row" Id="1847384050-failedResult" style="display:block;">
+      <div class="leaf-division">
+        <div><span class="fail">✘</span><span> TheUserCanAddTouristsToTheEventByCallingApiServices</span><div class="duration"><span>3s 179ms</span><br></div>
+        </div>
+        <div class="error-info">
+    Error: <span class="error-message"><pre>System.NullReferenceException : Object reference not set to an instance of an object.</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at specflowPlaywrightPOC.Actions.APIActions.AddTouristFromJson(String user) in C:\Users\DKX4D0S\repos\specflowPlaywrightPOC\Actions\APIActions.cs:line 30
+   at specflowPlaywrightPOC.Steps.APIStepDefinitions.WhenIaddtheTouristtothetouristlist(String user) in C:\Users\DKX4D0S\repos\specflowPlaywrightPOC\Steps\APIStepDefinitions.cs:line 30
+   at TechTalk.SpecFlow.Bindings.SynchronousBindingDelegateInvoker.&lt;&gt;c__DisplayClass2_0.&lt;&lt;InvokeBindingDelegateAsync&gt;b__0&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at TechTalk.SpecFlow.Bindings.AsyncHelpers.&lt;&gt;c__DisplayClass1_0`1.&lt;&lt;RunSync&gt;b__0&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at TechTalk.SpecFlow.Bindings.AsyncHelpers.ExclusiveSynchronizationContext.BeginMessageLoop()
+   at TechTalk.SpecFlow.Bindings.AsyncHelpers.RunSync[T](Func`1 task)
+   at TechTalk.SpecFlow.Bindings.SynchronousBindingDelegateInvoker.InvokeBindingDelegateAsync(Delegate bindingDelegate, Object[] invokeArgs)
+   at TechTalk.SpecFlow.Bindings.SynchronousBindingDelegateInvoker.InvokeDelegateSynchronously(Delegate bindingDelegate, Object[] invokeArgs)
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan&amp; duration)
+   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan&amp; duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan&amp; duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   at specflowPlaywrightPOC.Features.TestingARESTAPIFeature.ScenarioCleanup()
+   at specflowPlaywrightPOC.Features.TestingARESTAPIFeature.TheUserCanAddTouristsToTheEventByCallingApiServices() in C:\Users\DKX4D0S\repos\specflowPlaywrightPOC\Features\Feature4.feature:line 13</pre></span><br></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="fail">✘</span><span> Amazon1</span><div class="duration"><span>48s 869ms</span><br></div>
+        </div>
+        <div class="error-info">
+    Error: <span class="error-message"><pre>System.TimeoutException : Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for selector "//a[@id='nav-global-location-popover-link']"
+============================================================</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at Microsoft.Playwright.Transport.Connection.InnerSendMessageToServerAsync[T](String guid, String method, Object args) in /_/src/Playwright/Transport/Connection.cs:line 164
+   at Microsoft.Playwright.Transport.Connection.WrapApiCallAsync[T](Func`1 action, Boolean isInternal)
+   at specflowPlaywrightPOC.Actions.AmazonActions.ChangeLocation() in C:\Users\DKX4D0S\repos\specflowPlaywrightPOC\Actions\AmazonActions.cs:line 18
+   at specflowPlaywrightPOC.Steps.AmazonStepDefinitions.GivenTheFirstNumberIs(String location) in C:\Users\DKX4D0S\repos\specflowPlaywrightPOC\Steps\AmazonStepDefinitions.cs:line 23
+   at TechTalk.SpecFlow.Bindings.SynchronousBindingDelegateInvoker.&lt;&gt;c__DisplayClass2_0.&lt;&lt;InvokeBindingDelegateAsync&gt;b__0&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at TechTalk.SpecFlow.Bindings.AsyncHelpers.&lt;&gt;c__DisplayClass1_0`1.&lt;&lt;RunSync&gt;b__0&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at TechTalk.SpecFlow.Bindings.AsyncHelpers.ExclusiveSynchronizationContext.BeginMessageLoop()
+   at TechTalk.SpecFlow.Bindings.AsyncHelpers.RunSync[T](Func`1 task)
+   at TechTalk.SpecFlow.Bindings.SynchronousBindingDelegateInvoker.InvokeBindingDelegateAsync(Delegate bindingDelegate, Object[] invokeArgs)
+   at TechTalk.SpecFlow.Bindings.SynchronousBindingDelegateInvoker.InvokeDelegateSynchronously(Delegate bindingDelegate, Object[] invokeArgs)
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan&amp; duration)
+   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan&amp; duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan&amp; duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   at specflowPlaywrightPOC.Features.Amazone_OneFeatureFileFeature.ScenarioCleanup()
+   at specflowPlaywrightPOC.Features.Amazone_OneFeatureFileFeature.Amazon1() in C:\Users\DKX4D0S\repos\specflowPlaywrightPOC\Features\Feature2.feature:line 7</pre></span><br></div>
+      </div>
+    </div>
+    <h2>All Results</h2>
+    <div class="list-row" onclick="ToggleClass('1847384050')">C:\Users\DKX4D0S\repos\specflowPlaywrightPOC\bin\Debug\net6.0\specflowPlaywrightPOC.dll</div>
+    <div class="inner-row" Id="1847384050" style="display:none;">
+      <div class="leaf-division">
+        <div><span class="fail">✘</span><span> TheUserCanAddTouristsToTheEventByCallingApiServices</span><div class="duration"><span>3s 179ms</span><br></div>
+        </div>
+        <div class="error-info">
+    Error: <span class="error-message"><pre>System.NullReferenceException : Object reference not set to an instance of an object.</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at specflowPlaywrightPOC.Actions.APIActions.AddTouristFromJson(String user) in C:\Users\DKX4D0S\repos\specflowPlaywrightPOC\Actions\APIActions.cs:line 30
+   at specflowPlaywrightPOC.Steps.APIStepDefinitions.WhenIaddtheTouristtothetouristlist(String user) in C:\Users\DKX4D0S\repos\specflowPlaywrightPOC\Steps\APIStepDefinitions.cs:line 30
+   at TechTalk.SpecFlow.Bindings.SynchronousBindingDelegateInvoker.&lt;&gt;c__DisplayClass2_0.&lt;&lt;InvokeBindingDelegateAsync&gt;b__0&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at TechTalk.SpecFlow.Bindings.AsyncHelpers.&lt;&gt;c__DisplayClass1_0`1.&lt;&lt;RunSync&gt;b__0&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at TechTalk.SpecFlow.Bindings.AsyncHelpers.ExclusiveSynchronizationContext.BeginMessageLoop()
+   at TechTalk.SpecFlow.Bindings.AsyncHelpers.RunSync[T](Func`1 task)
+   at TechTalk.SpecFlow.Bindings.SynchronousBindingDelegateInvoker.InvokeBindingDelegateAsync(Delegate bindingDelegate, Object[] invokeArgs)
+   at TechTalk.SpecFlow.Bindings.SynchronousBindingDelegateInvoker.InvokeDelegateSynchronously(Delegate bindingDelegate, Object[] invokeArgs)
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan&amp; duration)
+   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan&amp; duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan&amp; duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   at specflowPlaywrightPOC.Features.TestingARESTAPIFeature.ScenarioCleanup()
+   at specflowPlaywrightPOC.Features.TestingARESTAPIFeature.TheUserCanAddTouristsToTheEventByCallingApiServices() in C:\Users\DKX4D0S\repos\specflowPlaywrightPOC\Features\Feature4.feature:line 13</pre></span><br></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> CheckLoginWithCorrectUsernameAndPassword</span><div class="duration"><span>15s 75ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> ChangeLocationForDeDeliverOfProductsAtAmazon</span><div class="duration"><span>22s 174ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> AccessToATab</span><div class="duration"><span>30s 884ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="pass">✔</span><span> SearchAProductWithARangePrice</span><div class="duration"><span>20s 295ms</span><br></div>
+        </div>
+        <div class="error-info"></div>
+      </div>
+      <div class="leaf-division">
+        <div><span class="fail">✘</span><span> Amazon1</span><div class="duration"><span>48s 869ms</span><br></div>
+        </div>
+        <div class="error-info">
+    Error: <span class="error-message"><pre>System.TimeoutException : Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for selector "//a[@id='nav-global-location-popover-link']"
+============================================================</pre></span><br>
+    Stack trace: <span class="error-stack-trace"><pre>   at Microsoft.Playwright.Transport.Connection.InnerSendMessageToServerAsync[T](String guid, String method, Object args) in /_/src/Playwright/Transport/Connection.cs:line 164
+   at Microsoft.Playwright.Transport.Connection.WrapApiCallAsync[T](Func`1 action, Boolean isInternal)
+   at specflowPlaywrightPOC.Actions.AmazonActions.ChangeLocation() in C:\Users\DKX4D0S\repos\specflowPlaywrightPOC\Actions\AmazonActions.cs:line 18
+   at specflowPlaywrightPOC.Steps.AmazonStepDefinitions.GivenTheFirstNumberIs(String location) in C:\Users\DKX4D0S\repos\specflowPlaywrightPOC\Steps\AmazonStepDefinitions.cs:line 23
+   at TechTalk.SpecFlow.Bindings.SynchronousBindingDelegateInvoker.&lt;&gt;c__DisplayClass2_0.&lt;&lt;InvokeBindingDelegateAsync&gt;b__0&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at TechTalk.SpecFlow.Bindings.AsyncHelpers.&lt;&gt;c__DisplayClass1_0`1.&lt;&lt;RunSync&gt;b__0&gt;d.MoveNext()
+--- End of stack trace from previous location ---
+   at TechTalk.SpecFlow.Bindings.AsyncHelpers.ExclusiveSynchronizationContext.BeginMessageLoop()
+   at TechTalk.SpecFlow.Bindings.AsyncHelpers.RunSync[T](Func`1 task)
+   at TechTalk.SpecFlow.Bindings.SynchronousBindingDelegateInvoker.InvokeBindingDelegateAsync(Delegate bindingDelegate, Object[] invokeArgs)
+   at TechTalk.SpecFlow.Bindings.SynchronousBindingDelegateInvoker.InvokeDelegateSynchronously(Delegate bindingDelegate, Object[] invokeArgs)
+   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan&amp; duration)
+   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan&amp; duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan&amp; duration)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)
+   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.OnAfterLastStep()
+   at TechTalk.SpecFlow.TestRunner.CollectScenarioErrors()
+   at specflowPlaywrightPOC.Features.Amazone_OneFeatureFileFeature.ScenarioCleanup()
+   at specflowPlaywrightPOC.Features.Amazone_OneFeatureFileFeature.Amazon1() in C:\Users\DKX4D0S\repos\specflowPlaywrightPOC\Features\Feature2.feature:line 7</pre></span><br></div>
+      </div>
+    </div>
+    <div>
+      <h2>Informational messages</h2><span>NUnit Adapter 4.2.0.0: Test execution started</span><br><span>Running all tests in C:\Users\DKX4D0S\repos\specflowPlaywrightPOC\bin\Debug\net6.0\specflowPlaywrightPOC.dll</span><br><span>   NUnit3TestExecutor discovered 6 of 6 NUnit test cases using Current Discovery mode, Non-Explicit run</span><br><span>NUnit Adapter 4.2.0.0: Test execution complete</span><br></div>
+    <div>
+      <h2>Error and Warning messages</h2><span>Given A list of Tourists is available
+True
+-&gt; done: APIStepDefinitions.GivenAlistofbooksareavailable() (2.5s)
+When I add the Tourist 'Joao' to the tourist list
+xxxxx-&gt;Internal Server Error
+{"Message":"An error has occurred."}
+-&gt; error: Object reference not set to an instance of an object. (0.5s)
+And I add the Tourist table to the tourist list
+  --- table step argument ---
+  | Tourist_name | Tourist_email  | Tourist_location |
+  | andre12      | andre12@ola.pt | Lisboa12         |
+  | andre22      | andre22@ola.pt | Lisboa22         |
+  | andre33      | andre32@ola.pt | Lisboa32         |
+-&gt; skipped because of previous errors
+Then I can see their presence at the tourist list
+-&gt; skipped because of previous errors
+</span><br><span>Given I have navigated to the application
+Navigate to app
+-&gt; done: LoginStepDefinitions.GivenIhavenavigatedtotheapplication() (0.0s)
+And I see the application opened
+I see app open
+-&gt; done: LoginStepDefinitions.GivenIseetheapplicationopened() (0.0s)
+When I click the login link
+Click login
+-&gt; done: LoginStepDefinitions.WhenIclicktheloginlink() (0.0s)
+And I click the login button
+click login button
+-&gt; done: LoginStepDefinitions.GivenIclicktheloginbutton() (0.0s)
+Then I should see the username with hello
+Check user with hello
+-&gt; done: LoginStepDefinitions.ThenIshouldseetheusernamewithhello() (0.0s)
+</span><br><span>Given i access to 'Amazon'
+-&gt; done: ComonStepDefinitions.IAccessTo("Amazon") (4.8s)
+When change location to SG
+-&gt; done: AmazonStepDefinitions.GivenTheFirstNumberIs("SG") (1.6s)
+Then the at the banner appears Deliver to Singapore
+-&gt; done: AmazonStepDefinitions.ThenTheResultShouldBe("Singapore") (0.4s)
+</span><br><span>Given i access to 'Tab'
+-&gt; done: ComonStepDefinitions.IAccessTo("Tab") (4.6s)
+When open a 'New Tab'
+-&gt; done: DemoQADefinitions.Whenopena("New Tab") (0.4s)
+Then i see the following message 'This is a sample page'
+-&gt; done: DemoQADefinitions.Theniseethefollowingmessage("This is a sample ...") (11.0s)
+</span><br><span>Given i access to 'Banggood'
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[System.Boolean,Microsoft.Playwright.Transport.Channels.FrameChannel+&lt;IsVisibleAsync&gt;d__52]
+-&gt; done: ComonStepDefinitions.IAccessTo("Banggood") (3.8s)
+And hover the category 'Computers &amp; Office'
+-&gt; done: BangoodStepDefinitions.IAccessTo("Computers &amp; Office") (5.4s)
+And select the product 'Android Tablet' from the subcategory 'Tablet PC'
+-&gt; done: BangoodStepDefinitions.Givenselecttheproductfromthesubcategory("Android Tablet", "Tablet PC") (0.6s)
+When i search an item with the price from '50' to '200'
+-&gt; done: BangoodStepDefinitions.Whenisearchanitemwiththepricefromto("50", "200") (2.6s)
+Then the following items are listed
+  --- table step argument ---
+  | item                             |
+  | UMIDIGI A11 Tab Helio P22 MT8768 |
+  | BMAX MaxPad I11 UNISOC T618      |
+  | TECLAST P85 Allwinner A133 Quad  |
+-&gt; done: BangoodStepDefinitions.Thentheproductisavailable(&lt;table&gt;) (2.3s)
+</span><br><span>Given i access to 'Amazon'
+-&gt; done: ComonStepDefinitions.IAccessTo("Amazon") (3.2s)
+When change location to RO
+-&gt; error: Timeout 30000ms exceeded.
+=========================== logs ===========================
+waiting for selector "//a[@id='nav-global-location-popover-link']"
+============================================================ (30.1s)
+Then the at the banner appears Deliver to Romania
+-&gt; skipped because of previous errors
+</span><br></div>
+  </body><script language="javascript">
+        function ToggleClass(id) {
+        var elem = document.getElementById(id);
+        if (elem.style.display == "none") {
+        elem.style.display = "block";
+        }
+        else {
+        elem.style.display = "none";
+        }
+        }
+      </script><style>
+        body { font-family: Calibri, Verdana, Arial, sans-serif; background-color: White; color: Black; }
+        h2 {
+        margin-top: 15px;
+        margin-bottom:10px;
+        }
+        pre {
+        white-space: pre-wrap;
+        }
+        .summary {font-family:monospace;
+        display: -webkit-flex; /* Safari */
+        -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+        display: flex;
+        flex-wrap: wrap;
+        }
+        .row {
+        border: 2px solid #ffffff;
+        width:100%;
+        cursor:pointer;
+        background-color:#d7e9fa;
+        }
+        .list-row {
+        border: 2px solid #ffffff;
+        width:100%;
+        cursor:pointer;
+        background-color:#ffffff;
+        }
+        .inner-row{
+        border: 2px solid #ffffff;
+        padding-left:1%;
+        margin-left:1%;
+        background-color:#ffffff;
+        }
+        .block{
+        width : 150px;
+        }
+        .leaf-division{
+        border: 2px solid #ffffff;
+        background-color:#e6eff7;
+        }
+        .pass { color: #0c0; }
+        .fail { color: #c00; }
+        .error-message { color : brown; }
+        .error-stack-trace { color: brown; }
+        .duration {float:right;padding-right:1%;}
+        .total-tests { font-size : 30px}
+        .test-run-time { font-size : 30px}
+        .pass-percentage { font-size : 30px}
+        .error-info{
+        margin-left:16px;
+        }
+      </style>
+</html>

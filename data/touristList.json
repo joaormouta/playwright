@@ -1,0 +1,12 @@
+[
+    {
+        "tourist_name": "Miguel",
+        "tourist_email": "Miguel123@gmail.com",
+        "tourist_location": "Braga"
+    },
+    {
+        "tourist_name": "Manuel",
+        "tourist_email": "Manuel123@gmail.com",
+        "tourist_location": "Faro"
+    }
+]

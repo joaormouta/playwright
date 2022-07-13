@@ -1,0 +1,39 @@
+{
+  "allure": {
+    "title": "ola",
+    "directory": "../../../allure-results",
+    "link": "https://mytestmanagementsystem.org?test={tms}"
+  },
+  "specflow": {
+    "stepArguments": {
+      "convertToParameters": "true",
+      "paramNameRegex": "^a.*",
+      "paramValueRegex": "^v.*"
+    },
+    "grouping": {
+      "suites": {
+        "parentSuite": "^(ui|api)",
+        "suite": "^(core|sales|aux)",
+        "subSuite": "^(create|update|delete)"
+      },
+      "behaviors": {
+        "epic": "^epic:?(.+)",
+        "story": "^story:?(.+)"
+      },
+      "packages": {
+        "package": "^package:?(.+)",
+        "testClass": "^class:?(.+)",
+        "testMethod": "^method:?(.+)"
+      }
+    },
+    "labels": {
+      "owner": "^owner:?(.+)",
+      "severity": "^(normal|blocker|critical|minor|trivial)"
+    },
+    "links": {
+      "link": "^link:(.+)",
+      "issue": "^\\d+",
+      "tms": "^tms:(\\d+)"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+    <NUnit>
+        <TestOutputXml>..\..\..\aTestResults\1.xml</TestOutputXml>
+    </NUnit>
+    <RunConfiguration>
+        <TestCaseFilter>Category=poss</TestCaseFilter>
+        <EnvironmentVariables>
+            <BROWSER_TYPE>Chromium</BROWSER_TYPE>
+            <USERNAME1>acp1</USERNAME1>
+            <PASSWORD1>Password@00!</PASSWORD1>
+        </EnvironmentVariables>
+    </RunConfiguration>
+</RunSettings>

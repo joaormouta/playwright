@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" name="specflowPlaywrightPOC.dll" fullname="C:\Users\DKX4D0S\repos\specflowPlaywrightPOC\bin\Debug\net6.0\specflowPlaywrightPOC.dll" runstate="Runnable" testcasecount="7" result="Passed" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1" engine-version="3.13.2.0" clr-version="6.0.4" start-time="2022-05-31 11:27:06Z" end-time="2022-05-31 11:27:12Z" duration="6.085588">
+  <command-line><![CDATA[C:\Users\DKX4D0S\repos\specflowPlaywrightPOC\bin\Debug\net6.0\testhost.dll --port 62820 --endpoint 127.0.0.1:062820 --role client --parentprocessid 10076 --telemetryoptedin false]]></command-line>
+  <filter>
+    <test>specflowPlaywrightPOC.Features.Amazone_OneFeatureFileFeature.Amazon1</test>
+  </filter>
+  <test-suite type="Assembly" id="0-1014" name="specflowPlaywrightPOC.dll" fullname="C:/Users/DKX4D0S/repos/specflowPlaywrightPOC/bin/Debug/net6.0/specflowPlaywrightPOC.dll" runstate="Runnable" testcasecount="7" result="Passed" start-time="2022-05-31T11:27:06.7937485Z" end-time="2022-05-31T11:27:12.8405082Z" duration="6.046719" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+    <environment framework-version="3.13.3.0" clr-version="6.0.4" os-version="Microsoft Windows 10.0.19044" platform="Win32NT" cwd="C:\Users\DKX4D0S\repos\specflowPlaywrightPOC\bin\Debug\net6.0" machine-name="DESKTOP-007DG92" user="DKX4D0S" user-domain="FS01" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="SynchronousEvents" value="False" />
+      <setting name="RandomSeed" value="715816878" />
+      <setting name="SkipNonTestAssemblies" value="True" />
+      <setting name="ProcessModel" value="InProcess" />
+      <setting name="DomainUsage" value="Single" />
+      <setting name="DefaultTestNamePattern" value="{m}{a}" />
+      <setting name="WorkDirectory" value="C:\Users\DKX4D0S\repos\specflowPlaywrightPOC\bin\Debug\net6.0" />
+      <setting name="NumberOfTestWorkers" value="8" />
+    </settings>
+    <properties>
+      <property name="ParallelScope" value="Fixtures" />
+      <property name="_PID" value="21296" />
+      <property name="_APPDOMAIN" value="testhost" />
+    </properties>
+    <test-suite type="SetUpFixture" id="0-1000" name="[default namespace]" fullname="specflowPlaywrightPOC_NUnitAssemblyHooks" classname="specflowPlaywrightPOC_NUnitAssemblyHooks" runstate="Runnable" testcasecount="7" result="Passed" start-time="2022-05-31T11:27:06.7991450Z" end-time="2022-05-31T11:27:12.8398588Z" duration="6.040717" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+      <properties />
+      <output><![CDATA[-> Loading plugin C:\Users\DKX4D0S\repos\specflowPlaywrightPOC\bin\Debug\net6.0\Allure.SpecFlowPlugin.dll
+-> Loading plugin C:\Users\DKX4D0S\repos\specflowPlaywrightPOC\bin\Debug\net6.0\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+-> Loading plugin C:\Users\DKX4D0S\repos\specflowPlaywrightPOC\bin\Debug\net6.0\specflowPlaywrightPOC.dll
+-> Using specflow.json
+]]></output>
+      <test-suite type="TestSuite" id="0-1015" name="specflowPlaywrightPOC" fullname="specflowPlaywrightPOC" runstate="Runnable" testcasecount="7" result="Passed" start-time="2022-05-31T11:27:06.9455690Z" end-time="2022-05-31T11:27:12.8354974Z" duration="5.889928" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+        <properties />
+        <test-suite type="TestSuite" id="0-1016" name="Features" fullname="specflowPlaywrightPOC.Features" runstate="Runnable" testcasecount="7" result="Passed" start-time="2022-05-31T11:27:06.9456394Z" end-time="2022-05-31T11:27:12.8354725Z" duration="5.889834" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+          <properties />
+          <test-suite type="TestFixture" id="0-1004" name="Amazone_OneFeatureFileFeature" fullname="specflowPlaywrightPOC.Features.Amazone_OneFeatureFileFeature" classname="specflowPlaywrightPOC.Features.Amazone_OneFeatureFileFeature" runstate="Runnable" testcasecount="1" result="Passed" start-time="2022-05-31T11:27:06.9457163Z" end-time="2022-05-31T11:27:12.8338735Z" duration="5.888158" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="1">
+            <properties>
+              <property name="Description" value="Amazone - one feature file" />
+            </properties>
+            <test-case id="0-1005" name="Amazon1" fullname="specflowPlaywrightPOC.Features.Amazone_OneFeatureFileFeature.Amazon1" methodname="Amazon1" classname="specflowPlaywrightPOC.Features.Amazone_OneFeatureFileFeature" runstate="Runnable" seed="1305469641" result="Passed" start-time="2022-05-31T11:27:06.9612589Z" end-time="2022-05-31T11:27:12.7763201Z" duration="5.815345" asserts="1">
+              <properties>
+                <property name="Description" value="Amazon1" />
+                <property name="Category" value="tms:12" />
+                <property name="Category" value="trivial" />
+                <property name="Category" value="web" />
+                <property name="Category" value="teste1" />
+              </properties>
+              <output><![CDATA[Given i access to 'Amazon'
+-> done: ComonStepDefinitions.IAccessTo("Amazon") (2.1s)
+When change location to RO
+-> done: AmazonStepDefinitions.GivenTheFirstNumberIs("RO") (0.7s)
+Then the at the banner appears Deliver to Romania
+-> done: AmazonStepDefinitions.ThenTheResultShouldBe("Romania") (1.3s)
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

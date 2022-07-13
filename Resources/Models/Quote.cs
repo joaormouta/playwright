@@ -1,0 +1,74 @@
+namespace SpecflowPlaywrightPOC.Resources.Models
+{
+    public class Quote
+    {
+        public string Business { get; set; }
+        public string Campaign { get; set; }
+        public string CustomerEntity { get; set; }
+        public string EntityNumber { get; set; }
+        public string Country { get; set; }
+        public string Classification { get; set; }
+        public string Channel { get; set; }
+        public string ProductVariant { get; set; }
+        public string Make { get; set; }
+        public string Model { get; set; }
+        public string Variant { get; set; }
+        public string Year { get; set; }
+        public string DownPayment { get; set; }
+        public string Month { get; set; }
+        public string SortCode { get; set; }
+        public string AccountSeniority { get; set; }
+        public string Amount { get; set; }
+        public string Period { get; set; }
+        public string PaymentType { get; set; }
+        public string PosProductType { get; set; }
+        public string PosPaymentType { get; set; }
+        public string PosVehicleClass { get; set; }
+        public string PosVehiclestate { get; set; }
+        public string PosMake { get; set; }
+        public string PosModel { get; set; }
+        public string PosVersion { get; set; }
+        public string PosProductVariant { get; set; }
+        public string PosColour { get; set; }
+        public string PosKind { get; set; }
+        public string PosStateTransition1 { get; set; }
+        public string PosStateTransition2 { get; set; }
+        public string PosStateTransition3 { get; set; }
+        public string PosJuridicalType { get; set; }
+        public string PosFirstName { get; set; }
+        public string PosSurName { get; set; }
+        public string PosDateOfBirth { get; set; }
+        public string PosPostCode { get; set; }
+        public string PosTitle { get; set; }
+        public string PosGender { get; set; }
+        public string PosCountry { get; set; }
+        public string PosStreet { get; set; }
+        public string PosValidFromDate { get; set; }
+        public string PosPhoneNumber { get; set; }
+        public string PosEmailId { get; set; }
+        public string PosAccountNumber { get; set; }
+        public string PosSortCode { get; set; }
+        public string PosTimeWithBankYear { get; set; }
+        public string PosTimeWithBankMonth { get; set; }
+        public string PosMartialStatus { get; set; }
+        public string PosResidenceType { get; set; }
+        public string PosMonthlyRentalPayment { get; set; }
+        public string PosOccupation { get; set; }
+        public string PosEmploymentStatus { get; set; }
+        public string PosEmployerName { get; set; }
+        public string PosContarctBegin { get; set; }
+        public string PosEmpAddressStreet { get; set; }
+        public string PosEmpAddressPostCode { get; set; }
+        public string PosEmpAddressDistrict { get; set; }
+        public string PosEmpAddressPhone { get; set; }
+        public string PosEmpAddressValidFrom { get; set; }
+        public string PosConsentQuestion { get; set; }
+        public string Purpose { get; set; }
+        public string RentalInAdvance { get; set; }
+        public string ServiceType { get; set; }
+        public string TaxType { get; set; }
+        public string Vendor { get; set; }
+        public string CustomerProfile { get; set; }
+        public string Location { get; set; }
+    }
+}
